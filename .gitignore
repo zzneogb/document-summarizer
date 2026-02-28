@@ -1,0 +1,28 @@
+# Ignore output directories and files
+daily*_chunks*/
+daily*_summary*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
